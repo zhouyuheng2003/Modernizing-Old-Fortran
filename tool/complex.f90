@@ -7,7 +7,7 @@
     BASE = 10 
     Todo = 124 
     DONe = 0 
-    if ( todo /= 0 ) then 
+  12  if ( todo /= 0 ) then 
       act = MOD(Todo,BASE) 
       Todo = Todo/BASE 
       if ( act == 1 .or. act == 3 .or. &
@@ -18,6 +18,7 @@
       print *, "The number is 2" 
     ELSE 
       print *,"The number is even" 
+      goto 12
     end if 
     DONe = DONe + 1 
     end if 
